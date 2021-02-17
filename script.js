@@ -9,13 +9,13 @@ function render(data) {
     
         $(document).ready(function() {
     
-            var coment = [{
+            var comment = [{
                 "name": "Barrack Obama",
                 "body": "Yoooooooooooo this website hits harder than my drone strikes!"
             }];
     
-            for (var i = 0; i < coment.length; i++) {
-                render(coment[i]);
+            for (var i = 0; i < comment.length; i++) {
+                render(comment[i]);
     
             }
     
@@ -25,7 +25,7 @@ function render(data) {
                     "body": $('#bodyText').val()
                 };
     
-                coment.push(addObj);
+                comment.push(addObj);
                 render(addObj);
                 $('#name').val('');
                 $('#bodyText').val('');
