@@ -14,7 +14,7 @@ function render(data) {
                 "body": "Yoooooooooooo this website hits harder than my drone strikes!"
             }];
     
-            for (var i = 0; i < comment.length; i++) {
+            for (var i = 1; i < comment.length; i++) {
                 render(comment[i]);
     
             }
